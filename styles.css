@@ -1,5 +1,5 @@
 body{
-    background-color: #927e7edb;
+    background-color: #faf5f5db;
     margin: 0;
     padding: 0;
 }
@@ -61,22 +61,46 @@ nav ul li{
 .menu {
     list-style-type: none;
     padding: 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    overflow: hidden;
 }
 
 .menu li {
     display: inline-block;
+    margin-right: 10px;
+    position: relative;
 }
 
 .menu li a {
     display: block;
     padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     text-decoration: none;
     color: #333;
 }
 
-.menu li a:hover {
-    background-color: #f2f2f2;
+.menu li .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.menu li .submenu li {
+    display: block;
+}
+
+.menu li .submenu li a {
+    padding: 8px 15px;
+}
+
+.menu li .submenu li:hover a {
+    background-color: #a7a7a7;
 }
