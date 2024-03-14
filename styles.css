@@ -1,0 +1,82 @@
+body{
+    background-color: #927e7edb;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #f2f2f2;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    text-align: center;
+    position: relative;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+}
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+    position: relative;
+}
+.icon-principal{
+    top: 0;
+    margin: 0;
+}
+.paragrafo{
+    text-align: center;
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+.text-login{
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    font-size: 80px;
+}
+.text-login button:hover {
+    background-color: #a7a7a7;
+}
+.text-login button {
+    font-size: 8px;
+    background-color: #a7a7a7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
+.menu {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.menu li a:hover {
+    background-color: #f2f2f2;
+}
